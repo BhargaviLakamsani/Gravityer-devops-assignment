@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
         
-                git branch: 'master', credentialsId: 'github', url: 'https://github.com/BhargaviLakamsani/hello-world-war.git'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/BhargaviLakamsani/hello-world-war.git'
             }
         }
 
